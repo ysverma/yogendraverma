@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yogendra Singh Verma - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
+
+  <!-- Header -->
+  <header class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-50 transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700 dark:text-blue-400">Yogendra Singh Verma</h1>
+      <div class="flex items-center space-x-6">
+        <nav class="hidden md:flex space-x-6 text-gray-600 dark:text-gray-300 font-medium">
+          <a href="#about" class="hover:text-blue-600 dark:hover:text-blue-400">About</a>
+          <a href="#skills" class="hover:text-blue-600 dark:hover:text-blue-400">Skills</a>
+          <a href="#experience" class="hover:text-blue-600 dark:hover:text-blue-400">Experience</a>
+          <a href="#projects" class="hover:text-blue-600 dark:hover:text-blue-400">Projects</a>
+          <a href="#education" class="hover:text-blue-600 dark:hover:text-blue-400">Education</a>
+          <a href="#contact" class="hover:text-blue-600 dark:hover:text-blue-400">Contact</a>
+        </nav>
+        <!-- Dark Mode Toggle -->
+        <button id="theme-toggle" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 transition">
+          <i data-feather="moon" class="w-5 h-5 text-gray-700 dark:text-gray-200"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="about" class="py-16 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center px-6">
+      <!-- Profile Image -->
+      <div class="w-40 h-40 mb-6 md:mb-0 md:mr-10" data-aos="fade-right">
+        <img src="your-image.jpg" alt="Yogendra Singh Verma" class="rounded-full border-4 border-white shadow-lg object-cover w-full h-full">
+      </div>
+      <!-- Text -->
+      <div class="text-center md:text-left" data-aos="fade-left">
+        <h2 class="text-4xl font-bold mb-4">Hello, I'm Yogendra 👋</h2>
+        <p class="max-w-2xl text-lg leading-relaxed">
+          PHP Developer with <b>2.10 years of experience</b>, specializing in <b>CodeIgniter</b> & <b>Core PHP</b>. 
+          Strong in building scalable UIs, API integration, and performance optimization.
+        </p>
+        <div class="mt-6 space-x-4">
+          <a href="mailto:varmayogendra@gmail.com" class="px-5 py-2 bg-white text-blue-700 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600">Email Me</a>
+          <a href="https://www.linkedin.com/in/yogendra-singh-verma-327147121/" target="_blank" class="px-5 py-2 bg-blue-900 rounded-lg shadow hover:bg-blue-800">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-8 text-center" data-aos="fade-up">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="zoom-in">PHP / Core PHP</div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="zoom-in">CodeIgniter</div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="zoom-in">JavaScript / jQuery</div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="zoom-in">HTML / CSS / Bootstrap</div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="zoom-in">MySQL</div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="zoom-in">WordPress</div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="bg-gray-100 dark:bg-gray-800 py-16 px-6 transition-colors">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center" data-aos="fade-up">Experience</h2>
+      <div class="space-y-6">
+        <div class="bg-white dark:bg-gray-900 p-6 rounded-xl shadow hover:shadow-md transition" data-aos="fade-right">
+          <h3 class="font-semibold text-lg">Futuristic Innovative System Pvt. Ltd. <span class="text-sm text-gray-500 dark:text-gray-400">Jun 2024 – Present</span></h3>
+          <p class="mt-2">Software Developer – Web applications development with PHP, MySQL, JavaScript.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-900 p-6 rounded-xl shadow hover:shadow-md transition" data-aos="fade-left">
+          <h3 class="font-semibold text-lg">Dotzoo Inc. <span class="text-sm text-gray-500 dark:text-gray-400">Sep 2022 – May 2024</span></h3>
+          <p class="mt-2">Built a custom Analytics Dashboard integrating Google Analytics & Search Console APIs.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-900 p-6 rounded-xl shadow hover:shadow-md transition" data-aos="fade-up">
+          <h3 class="font-semibold text-lg">Numeric Info System Pvt. Ltd. <span class="text-sm text-gray-500 dark:text-gray-400">Jan 2018 – May 2018</span></h3>
+          <p class="mt-2">Intern – Developed “City Navigator” project with PHP (CodeIgniter) and MySQL.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-8 text-center" data-aos="fade-up">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="flip-left">
+        <h3 class="font-semibold">SSL Domain Tracker Panel</h3>
+        <p class="text-sm mt-2">Track and manage SSL domains with PDF export, DataTables integration, and expiry reports.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="flip-right">
+        <h3 class="font-semibold">Blog Admin Panel</h3>
+        <p class="text-sm mt-2">Created APIs & UI for blog submissions. Blogs auto-reflect on site after approval.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="flip-left">
+        <h3 class="font-semibold">Web Stories & Podcast Panel</h3>
+        <p class="text-sm mt-2">Dynamic banners/logos displayed based on user city.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="flip-right">
+        <h3 class="font-semibold">Analytics Dashboard</h3>
+        <p class="text-sm mt-2">Integrated Google Analytics & Search Console APIs for traffic insights.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition" data-aos="flip-up">
+        <h3 class="font-semibold">City Navigator</h3>
+        <p class="text-sm mt-2">Intern project developed with PHP (CodeIgniter) and MySQL.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strengths & Achievements -->
+  <section class="bg-gray-100 dark:bg-gray-800 py-16 px-6 transition-colors">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
+      <div data-aos="fade-right">
+        <h2 class="text-3xl font-bold mb-6">Strengths</h2>
+        <ul class="list-disc ml-6 space-y-2">
+          <li>Strong grasping power, excellent communication, quick adaptability</li>
+          <li>Team player with solution-focused mindset</li>
+          <li>Self-motivated and eager to learn new technologies</li>
+        </ul>
+      </div>
+      <div data-aos="fade-left">
+        <h2 class="text-3xl font-bold mb-6">Achievements</h2>
+        <ul class="list-disc ml-6 space-y-2">
+          <li>Diploma in Computer Applications (DCA)</li>
+          <li>Computer Hardware & Networking Certification – GT Institute</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-8 text-center" data-aos="fade-up">Education</h2>
+    <ul class="list-disc ml-6 space-y-2" data-aos="fade-up">
+      <li><b>MCA</b>, MITS Gwalior (RGPV University) – 2018, CGPA: 6.6</li>
+      <li><b>BCA</b>, Shree GLS College, Banmor (Jiwaji University) – 2015, 71.1%</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <footer id="contact" class="bg-blue-700 dark:bg-blue-900 text-white py-12 transition-colors" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto text-center space-y-3">
+      <h2 class="text-xl font-bold">Get in Touch</h2>
+      <p>Email: <a href="mailto:varmayogendra@gmail.com" class="underline">varmayogendra@gmail.com</a></p>
+      <p>Phone: +91-7415345157</p>
+      <p>Connect on <a href="https://www.linkedin.com/in/yogendra-singh-verma-327147121/" target="_blank" class="underline">LinkedIn</a></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    feather.replace();
+    AOS.init({ duration: 1000, once: true });
+
+    const toggleBtn = document.getElementById("theme-toggle");
+    const html = document.documentElement;
+
+    if(localStorage.getItem("theme") === "dark"){ html.classList.add("dark"); }
+
+    toggleBtn.addEventListener("click", () => {
+      html.classList.toggle("dark");
+      localStorage.setItem("theme", html.classList.contains("dark") ? "dark" : "light");
+    });
+  </script>
+</body>
+</html>
